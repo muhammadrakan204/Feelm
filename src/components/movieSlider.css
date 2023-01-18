@@ -1,0 +1,53 @@
+.movie-container {
+    height: 100%;
+}
+
+.movie-content {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.title {
+    margin-top: 5px;
+}
+
+.vote {
+    color: red;
+    font-weight: 900;
+}
+
+.movie-img {
+    transition: .5s;
+}
+
+.overview {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    max-height: 100%;
+    padding: 20px;
+    transform: translateY(101%);
+    transition: .5s;
+}
+
+.movie-content:hover .overview {
+    transform: translateY(0);
+    overflow-y: scroll;
+}
+
+.movie-content .title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.overview h3 {
+    padding: 10px 0px;
+}
+
+
+

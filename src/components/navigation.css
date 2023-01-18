@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 1000;
+}
+
+nav h1 {
+    color: red;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-family: 'Mulish', sans-serif;
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+}
+
+form input {
+    border: none;
+    margin-right: 10px;
+    padding: 1px 3px;
+    font-size: 1rem;
+    width: 12rem;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+}
+
+form {
+    margin-top: 10px;
+    border-radius: 0;
+}
+
+.container-form {
+    background-color: white;
+    padding: 5px;
+    border: 1.2px solid red;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+form i {
+    color: red;
+    font-size: 1.4em;
+    padding-right: 3px;
+}
