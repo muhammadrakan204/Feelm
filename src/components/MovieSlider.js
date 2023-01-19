@@ -9,7 +9,6 @@ const MovieSlider = ({ popularMovies }) => {
   return (
     <div className="container-movie-slider">
       <Swiper
-        pagination={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
         navigation={true}

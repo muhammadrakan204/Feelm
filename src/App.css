@@ -60,11 +60,14 @@ header::after {
 
 .content-header {
   width: 80%;
+  
 }
 
 .container-header h1 {
-  margin-bottom: 15px;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  margin-bottom: 25px;
+  /* font-family: 'Raleway', sans-serif; */
+  font-size: 4.5rem;
+  line-height: 70px;
 }
 
 .container-header p {
@@ -74,10 +77,10 @@ header::after {
 .container-header button {
   margin-top: 18px;
   padding: 7px 15px;
-  background-color: red;
+  background-color: #D00000;
   color: white;
   border: none;
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
   cursor: pointer;
@@ -102,4 +105,51 @@ header::after {
   font-family: 'Alegreya Sans SC', sans-serif;
   text-transform: uppercase;
 }
+
+@media (max-width: 1024) {
+
+}
+
+/* mobile */
+@media (max-width: 500px) {
+
+  .content-header {
+    width: 100%;
+  }
+
+  .container-header p {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .container-header h1 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  .container-header p {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .container-header h1 {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+}
+  
+  @media (max-width: 868px) {
+    .container-header p {
+      font-size: 1rem;
+      line-height: 20px;
+    }
+  
+    .container-header h1 {
+      font-size: 3rem;
+      line-height: 50px;
+    }
+  }
 

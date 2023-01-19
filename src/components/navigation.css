@@ -8,9 +8,9 @@ nav {
 
 nav h1 {
     color: red;
-    font-size: 3.5em;
+    font-size: 5em;
     text-transform: uppercase;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     text-shadow: 0px 0px 4px rgba(0,0,0,0.5);
 }
 
@@ -43,4 +43,26 @@ form i {
     color: red;
     font-size: 1.4em;
     padding-right: 3px;
+}
+
+
+
+@media (max-width: 600px) {
+    form input {
+        width: 4rem;
+    }
+
+    nav h1 {
+        font-size: 6px;
+    }
+
+    .container-form {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    nav h1 {
+        font-size: 4rem;
+    }
 }
